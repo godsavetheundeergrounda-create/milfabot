@@ -1,0 +1,7 @@
+{
+  "_comment": "Замените placeholder ID на реальные custom_emoji_id после загрузки пака через @Stickers. См. раздел «Кастомные эмодзи» в README.txt",
+  "смех": "PLACEHOLDER_смех",
+  "огонь": "PLACEHOLDER_огонь",
+  "сердечко": "PLACEHOLDER_сердечко",
+  "успех": "PLACEHOLDER_успех"
+}

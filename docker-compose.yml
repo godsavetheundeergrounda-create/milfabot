@@ -1,0 +1,13 @@
+services:
+  milfyria-bot:
+    build: .
+    container_name: milfyria-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+      - ./prompts:/app/prompts
+    environment:
+      - DB_PATH=/app/data/bot.db
